@@ -1,0 +1,154 @@
+{
+	"id": "0b1d4e3e-cda1-cf78-a00f-17fff78634cf",
+	"name": "Lumen-Vue-Events-REST",
+	"description": "Implementasi RESTful API menggunakan Lumen, untuk sample project menggunakan VueJS",
+	"order": [
+		"996e7641-bd7c-9e53-8f3e-40ae81ec2e59",
+		"09056dbb-3053-3dd3-65c5-9741d23986c0",
+		"9bac7974-ff8b-b726-fcc9-3bcc1bc764db",
+		"3a1e1de1-57fe-8c82-0e51-ffa1555833bf",
+		"74b3fe5e-6c40-a45e-be1d-ee28373c1658"
+	],
+	"folders": [],
+	"timestamp": 1471127839694,
+	"owner": "332882",
+	"public": false,
+	"published": false,
+	"requests": [
+		{
+			"id": "09056dbb-3053-3dd3-65c5-9741d23986c0",
+			"headers": "",
+			"url": "http://localhost:8000/api/v1/event/11",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1471217459717,
+			"name": "Event - Get By Id",
+			"description": "",
+			"collectionId": "0b1d4e3e-cda1-cf78-a00f-17fff78634cf",
+			"responses": []
+		},
+		{
+			"id": "3a1e1de1-57fe-8c82-0e51-ffa1555833bf",
+			"headers": "",
+			"url": "http://localhost:8000/api/v1/event/5",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "Event 11",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Description 11",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "date",
+					"value": "2016-10-10",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1471139048666,
+			"name": "Event - Update",
+			"description": "",
+			"collectionId": "0b1d4e3e-cda1-cf78-a00f-17fff78634cf",
+			"responses": []
+		},
+		{
+			"id": "74b3fe5e-6c40-a45e-be1d-ee28373c1658",
+			"headers": "",
+			"url": "http://localhost:8000/api/v1/event/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1471130868882,
+			"name": "Event - Delete",
+			"description": "",
+			"collectionId": "0b1d4e3e-cda1-cf78-a00f-17fff78634cf",
+			"responses": []
+		},
+		{
+			"id": "996e7641-bd7c-9e53-8f3e-40ae81ec2e59",
+			"headers": "Name: Ahmad Arif\nage: 10\n",
+			"url": "http://localhost:8000/api/v1/event",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "Ahmad Arif",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1471128051550,
+			"name": "Event - Get All",
+			"description": "",
+			"collectionId": "0b1d4e3e-cda1-cf78-a00f-17fff78634cf",
+			"responses": []
+		},
+		{
+			"id": "9bac7974-ff8b-b726-fcc9-3bcc1bc764db",
+			"headers": "",
+			"url": "http://localhost:8000/api/v1/event",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Event 2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Description 2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "date",
+					"value": "2016-08-11",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1471130113004,
+			"name": "Event - Insert",
+			"description": "",
+			"collectionId": "0b1d4e3e-cda1-cf78-a00f-17fff78634cf",
+			"responses": []
+		}
+	]
+}

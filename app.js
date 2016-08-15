@@ -1,6 +1,6 @@
 // link: https://scotch.io/tutorials/build-an-app-with-vue-js-a-lightweight-alternative-to-angularjs
 
-Vue.http.options.root = 'http://localhost/lumen-vue-events/api/v1';
+Vue.http.options.root = 'http://localhost:8000/api/v1';
 
 new Vue({
     el: '#events',
